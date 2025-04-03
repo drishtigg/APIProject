@@ -1,0 +1,76 @@
+{
+    "reqtype": "getIPData",
+    "data": {
+        "depth": "%-1",
+        "numIP": "1",
+        "formattype": "table",
+        "tableformatid": "hawking_RAP_StockAvailability_1",
+        "nestedFilter": "false",
+        "feRecoWrapper": {
+            "complexity": "high",
+            "reportdate": "2024-12-24 17:55:14",
+            "drfilterviqindex": "-1",
+            "daterangefilter": {
+                "START": "2021-08-19",
+                "END": "2025-09-19",
+                "HEAD": "Date Time"
+            },
+            "zoomChart": "",
+            "showTotalValue": "false",
+            "XAxisCustomize": "false"
+        },
+        "getVIQArray": [
+            {
+                "type": "TabularAggregation",
+                "filenameUpdate": "true",
+                "req_type": "mranalytics",
+                "properties": {
+                    "UVName": "outputcsv/scnp",
+                    "filename": "673f61511215d3fd59ee4b64-stock_analysis.csv",
+                    "ArraySizeMax": "50",
+                    "Columns": [
+                        {
+                            "Colname": "Site ID",
+                            "ColType": "Cat"
+                        },
+                        {
+                            "Colname": "SKU ID",
+                            "ColType": "Cat"
+                        },
+                        {
+                            "Colname": "Sum Order quantity",
+                            "ColType": "Cont"
+                        },
+                        {
+                            "Colname": "Sum Order served",
+                            "ColType": "Cont"
+                        }
+                    ],
+                    "filter": {
+                        "DATERANGE": {
+                            "START": "2021-08-19",
+                            "END": "2025-09-19",
+                            "HEAD": "Date Time"
+                        }
+                    }
+                }
+            }
+        ],
+        "feviewtype": "table",
+        "at": "eyJhbGciOiJIUzI1NiJ9.NDlkZjU5M2MtNmJhYy00NWZmLWIzNmItMTgxNTViYmQ3ZmJj.V0zj5Fx8jYOQcYcgKjfeNTA3LoTBmfd1MOXhrESSkoE",
+        "rt": "eyJhbGciOiJIUzI1NiJ9.ZTMwZjhmN2YtNmRlMS00ZGJjLTg2NmMtYTJmMzk5NzMwZDZk._-sf21RXjyMzLkOqP4S36oCcRaY_9Tw6Vwy74A86abA",
+        "DSName": "hawking",
+        "username": "ritika.hri@verdis.ai",
+        "role": [
+            "V:DEFAULT",
+            "V:FULLACCESS_UV_DEMAND",
+            "V:FULLACCESS_UV_OPENING_STOCK",
+            "V:FULLACCESS_UV_SALES",
+            "V:FULLACCESS_UV_OUTPUTCSV/SCNP",
+            "RAP_Network_Links",
+            "V:FULLACCESS_UV_RAW/POSTVALIDATION/SCNP"
+        ],
+        "op_department": "default"
+    },
+    "_trid": "TRGW1232435039484K92"
+}

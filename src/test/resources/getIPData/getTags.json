@@ -1,0 +1,36 @@
+{
+  "reqtype": "getTags",
+  "data": {
+    "DSName": "newton",
+    "user_id": "",
+    "at": "eyJhbGciOiJIUzI1NiJ9.ZGEwMjdkMTItZGYzMy00MTM5LWIxMWMtNjUyMTM2MWZhZThj.JwRozKc_MAjDTw7wHX9yduVD5mSFb_mpDFPtuLeSgtA",
+    "rt": "eyJhbGciOiJIUzI1NiJ9.YmQ5NDFlYWYtYjcxYi00ZjM5LWI4YWQtYjhiODViMWEzYWE5.gjd1CuV689c_uH3J1i5S7FiwZBYWVz6NIAQiutnewso",
+    "user_level_filters": {
+      "plant": [
+        "1F-PMB",
+        "1F",
+        "2F",
+        "3F",
+        "4F",
+        "ROE1",
+        "WHGW",
+        "WHDH"
+      ]
+    },
+    "username": "i-drishti@verdis.ai",
+    "role": [
+      "V:DEFAULT",
+      "Truck Master Charts",
+      "V:FULLACCESS_UV_PLANT_MASTER",
+      "V:FULLACCESS_UV_REGION_MASTER",
+      "V:FULLACCESS_UV_SOBTARGET",
+      "V:FULLACCESS_UV_TRANSPORTERMASTER",
+      "V:FULLACCESS_UV_TRUCK_CONFIRMATION",
+      "V:FULLACCESS_UV_TRUCK_CONFIRMATION_NEW",
+      "V:FULLACCESS_UV_TRUCK_MASTER",
+      "plan vs actual tfal04"
+    ],
+    "op_department": "lpc"
+  },
+  "_trid": "TRGW676942E48E5D1922EF0B4689"
+}

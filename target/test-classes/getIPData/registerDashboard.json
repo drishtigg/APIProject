@@ -1,0 +1,49 @@
+{
+  "reqtype": "registerDashboard",
+  "data": {
+    "DSName": "newton",
+    "IPRefId": {
+      "Primary": "66419a52ae9122011b104c34",
+      "Secondary": ""
+    },
+    "chartproperties": {
+      "charttype": "$scope.chartData.properties.charttype",
+      "sortProp": ""
+    },
+    "dashproperties": {
+      "type": "chart",
+      "name": "Emission-wise Total Fleet Count",
+      "nameDE": "Emission-wise Total Fleet Count",
+      "chartSize": "regular",
+      "category": "ALL",
+      "kpi": "",
+      "desc": "Desc:undefined"
+    },
+    "viqWrapper": "{\"depth\":\"%1\",\"numIP\":\"1\",\"viq\":[{\"UVName\":\"truck_master\",\"filter\":{\"DATERANGE\":{\"START\":\"2024-01-01\",\"END\":\"2024-12-01\",\"HEAD\":\"SIMBAMASTER-04-TRCK__vds-created_Date\"}},\"Col1\":{\"disabled\":false,\"ColType\":\"Cat\",\"Colname\":\"SIMBAMASTER-22_Transporter_vds-b_Name_vds-b_Alias\",\"ColnameDE\":\"Transporter Name\",\"UVName\":\"truck_master\"},\"yCol1\":{\"UVName\":\"truck_master\",\"Colname\":\"CountDistinct SIMBAMASTER-04-TRCK_Truck_vds-b_Number\",\"ColType\":\"Cont\",\"ColnameDE\":\"Count Of Truck Number\"}}],\"feRecoWrapper\":{\"chartTitle\":\"Emission-wise Total Fleet Count\",\"complexity\":\"basic\",\"reportdate\":\"2024-12-23 18:17:42\",\"chartFormat\":{\"charttype\":\"Bar\",\"flagtext\":\"2\",\"colorTheme\":\"G\"},\"showslicedicecomp\":1,\"sort\":{\"isDescending\":false,\"labelSort\":true,\"chSet\":0}}",
+    "at": "eyJhbGciOiJIUzI1NiJ9.ODU2NzY3YmMtNGQ1NC00ZTg4LWFmNmYtNWJhMGRlZTA0YmQx.SQqDTn0r1qJF2NiOdXps2xn8FdI0EziPDoUjeRPswD4",
+    "rt": "eyJhbGciOiJIUzI1NiJ9.NzJhMTY1MjItZTYwOS00NTA4LWFiZTEtNDFiN2JkMjJkOWY4.KHa0ZSMjEo4P0LFNpsOyov-eFGs9UNaC9xKBQ2xpyZA",
+    "startDate": "",
+    "endDate": "",
+    "tagid": "66b0c1dce2316ed8241ea554",
+    "story_id": "66b0c1fae2316ed8241ea55b",
+    "status": "",
+    "vwid": "6629b6fee31eb13e3ef775bf",
+    "mis_name": "Truck Master Charts: Truck Master Charts",
+    "mis_number": "Truck Master Charts: Truck Master Charts",
+    "username": "i-drishti@verdis.ai",
+    "role": [
+      "V:DEFAULT",
+      "Truck Master Charts",
+      "V:FULLACCESS_UV_PLANT_MASTER",
+      "V:FULLACCESS_UV_REGION_MASTER",
+      "V:FULLACCESS_UV_SOBTARGET",
+      "V:FULLACCESS_UV_TRANSPORTERMASTER",
+      "V:FULLACCESS_UV_TRUCK_CONFIRMATION",
+      "V:FULLACCESS_UV_TRUCK_CONFIRMATION_NEW",
+      "V:FULLACCESS_UV_TRUCK_MASTER",
+      "plan vs actual tfal04"
+    ],
+    "op_department": "lpc"
+  },
+  "_trid": "TRGW67695C888E5D1922EF0B4D71"
+}

@@ -1,0 +1,18 @@
+{
+  "reqtype": "updateTag",
+  "data": {
+    "story_title": "story",
+    "cat_id": "676ce89d0d26e330d6bcaa55",
+    "DSName": "newton",
+    "user_id": "",
+    "opt_type": "add",
+    "at": "eyJhbGciOiJIUzI1NiJ9.Y2RjYzkwZmEtOGIwZS00MmNiLThiNGYtYzRkOTE5NDRiYTc0.mSj2_8Pai5N-X4LDHXdP3JGp3dxiPiQSNJOzUO0ju6E",
+    "rt": "eyJhbGciOiJIUzI1NiJ9.YmM0ZmYyYzMtNWUzOS00MDQ0LWEzYjUtYzg3ZTk2ZjJiZTY0.LVC9Yi4zbh7clqIJzkOwtSxIlyGZGssKX5fEk0-umLw",
+    "username": "i-anvimunjal@verdis.ai",
+    "role": [
+      "V:DEFAULT"
+    ],
+    "op_department": "lpc"
+  },
+  "_trid": "abdhdcd"
+}

@@ -1,0 +1,51 @@
+{
+    "reqtype": "execution_write",
+    "data": {
+        "DSName": "maverick",
+        "username": "anchal@verdis.ai",
+        "usecase": "apiupload",
+        "op_type": "bulkCreateData",
+        "interface": "vtcode13_op_order",
+        "roles": [
+            "V:FullAccess"
+        ],
+        "user_level_filters": {},
+        "filters": {},
+        "data": [
+            {
+                "InvoiceDate1": "12.02.2025 12:47:05",
+                "BillingType": "ZVEH",
+                "InvoiceNo": "0090920164",
+                "InvoiceDate2": "12.02.2025",
+                "GST_Invoice_Receipt": "GJ2400069731",
+                "WholesaleCode": "CARD",
+                "BillFrom": "MG01",
+                "StorageLocation": "FG01",
+                "PaymentType": "VEHC",
+                "BillFromCity": "Halol",
+                "VIN": "",
+                "VSN_Code": "3012EBRCW2",
+                "SO_No": "0000525916",
+                "SO_DateTime": "12.02.2025 12:40:59",
+                "Delivery_No": "0070272864",
+                "Delivery_DateTime": "12.02.2025 12:47:04",
+                "PO_No": "987654334",
+                "Qty": "1.000",
+                "NetValue": "1456769.63 ",
+                "TaxValue": "72838.00 ",
+                "TotalValue": "1529607.63 ",
+                "CancelFlag": "",
+                "VIN_Year": null,
+                "Financier": "Kotak Mahindra Prime Limited",
+                "InteriorColorDescription": "",
+                "DispatchDate": "12.02.2025 15:20:40",
+                "LR_No": "221-14439",
+                "Truck_No": "NL01Q5528",
+                "TransporterName": "DELHI GUJARAT FLEET CARRIERS",
+                "ActualLR": "Yes",
+                "UpdatedAt": "12.02.2025 15:20:40",
+                "Remark": ""
+            }
+        ]
+    }
+}

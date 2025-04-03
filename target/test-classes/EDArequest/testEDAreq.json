@@ -1,0 +1,54 @@
+{
+  "IQPropRefId": "demoscnp-datavalidation-format-hawkingdemoscnpProductionPlanMDMSKUMaster",
+  "IQProp": {
+    "DSRefId": "TBD",
+    "DSGrpRefId": "TBD",
+    "SparkTask": "FileValidation",
+    "FACTORS": [
+      {
+        "inputfilepath": "scnp/676bba9a0a4ecc4425e6e266-hawkingdemoscnpProductionPlanMDMSKUMaster.csv",
+        "decrypt": "true",
+        "writeFlag": "true",
+        "schema": [
+          {
+            "Colname": "SKU Type",
+            "DataType": "string",
+            "ColType": "Cat",
+            "Hierarchy": "",
+            "Level": "",
+            "Encrypt": "false",
+            "Action": "",
+            "duplicate": "false"
+          },
+          {
+            "Colname": "CaseLot",
+            "DataType": "long",
+            "ColType": "Cont",
+            "Hierarchy": "",
+            "Level": "",
+            "Encrypt": "false",
+            "Action": "",
+            "duplicate": "false"
+          },
+          {
+            "Colname": "SKU ID",
+            "DataType": "string",
+            "ColType": "Cat",
+            "Hierarchy": "",
+            "Level": "",
+            "Encrypt": "false",
+            "Action": "",
+            "duplicate": "false"
+          }
+        ],
+        "rules": [
+          "missingValues",
+          "format",
+          "catBoundaries",
+          "CombinationCheck"
+        ]
+      }
+    ]
+  },
+  "_trid": "TRDATAIO676BBAA0379415D9D9260C52"
+}

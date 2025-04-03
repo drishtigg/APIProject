@@ -1,0 +1,87 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "type": "object",
+  "properties": {
+    "ecode": { "type": "integer" },
+    "einfo": {
+      "type": "object",
+      "properties": {
+        "results": {
+          "type": "array",
+          "items": {
+            "type": "object",
+            "properties": {
+              "decrypt": { "type": "string" },
+              "duplicate": {
+                "type": "object",
+                "properties": {
+                  "duplicate_combination": {
+                    "type": "array",
+                    "items": {}
+                  },
+                  "ecode": { "type": "integer" }
+                },
+                "required": ["duplicate_combination", "ecode"]
+              },
+              "inputfilepath": { "type": "string" },
+              "rules": {
+                "type": "array",
+                "items": { "type": "string" }
+              },
+              "schema": {
+                "type": "array",
+                "items": {
+                  "type": "object",
+                  "properties": {
+                    "ColType": { "type": "string" },
+                    "Colname": { "type": "string" },
+                    "DataType": { "type": "string" },
+                    "ecode": { "type": "integer" },
+                    "fail": { "type": "integer" },
+                    "failvalues": {
+                      "type": "array",
+                      "items": {}
+                    },
+                    "file": { "type": "string" },
+                    "nonNullRowCount": { "type": "integer" },
+                    "pass": { "type": "integer" },
+                    "passvalues": {
+                      "type": "array",
+                      "items": { "type": "string" }
+                    },
+                    "rule": { "type": "string" }
+                  },
+                  "required": [
+                    "ColType",
+                    "Colname",
+                    "DataType",
+                    "ecode",
+                    "fail",
+                    "failvalues",
+                    "file",
+                    "nonNullRowCount",
+                    "pass",
+                    "passvalues",
+                    "rule"
+                  ]
+                }
+              },
+              "writeFlag": { "type": "string" }
+            },
+            "required": [
+              "decrypt",
+              "duplicate",
+              "inputfilepath",
+              "rules",
+              "schema",
+              "writeFlag"
+            ]
+          }
+        }
+      },
+      "required": ["results"]
+    },
+    "status": { "type": "boolean" }
+  },
+  "required": ["ecode", "einfo", "status","trid"]
+}

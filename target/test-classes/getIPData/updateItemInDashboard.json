@@ -1,0 +1,51 @@
+{
+  "reqtype": "updateItemInDashboard",
+  "data": {
+    "DSName": "newton",
+    "DashItemId": "67695c88109b9b0ea0114f9b",
+    "prop": "dashproperties.category",
+    "dailyUpdate": "",
+    "status": "",
+    "tagid": "6729b78cc088ddc6e38f52ed",
+    "story_id": "6729b78c1afb7d6b9755aee5",
+    "chartsize": "regular",
+    "opt_type": "",
+    "at": "eyJhbGciOiJIUzI1NiJ9.ODU2NzY3YmMtNGQ1NC00ZTg4LWFmNmYtNWJhMGRlZTA0YmQx.SQqDTn0r1qJF2NiOdXps2xn8FdI0EziPDoUjeRPswD4",
+    "rt": "eyJhbGciOiJIUzI1NiJ9.NzJhMTY1MjItZTYwOS00NTA4LWFiZTEtNDFiN2JkMjJkOWY4.KHa0ZSMjEo4P0LFNpsOyov-eFGs9UNaC9xKBQ2xpyZA",
+    "subStoryName": "",
+    "chartSubStoryId": "",
+    "newSubStoryName": "",
+    "reqtype": "",
+    "reportDate": "",
+    "comment": "",
+    "viq": "",
+    "screenIndex": "",
+    "user_level_filters": {
+      "plant": [
+        "1F-PMB",
+        "1F",
+        "2F",
+        "3F",
+        "4F",
+        "ROE1",
+        "WHGW",
+        "WHDH"
+      ]
+    },
+    "username": "i-drishti@verdis.ai",
+    "role": [
+      "V:DEFAULT",
+      "Truck Master Charts",
+      "V:FULLACCESS_UV_PLANT_MASTER",
+      "V:FULLACCESS_UV_REGION_MASTER",
+      "V:FULLACCESS_UV_SOBTARGET",
+      "V:FULLACCESS_UV_TRANSPORTERMASTER",
+      "V:FULLACCESS_UV_TRUCK_CONFIRMATION",
+      "V:FULLACCESS_UV_TRUCK_CONFIRMATION_NEW",
+      "V:FULLACCESS_UV_TRUCK_MASTER",
+      "plan vs actual tfal04"
+    ],
+    "op_department": "lpc"
+  },
+  "_trid": "TRGW67695F4B8E5D1922EF0B4E3C"
+}

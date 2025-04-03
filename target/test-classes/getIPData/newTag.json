@@ -1,0 +1,33 @@
+{
+  "reqtype": "newTag",
+  "data": {
+    "cat_title": "new story tag",
+    "DSName": "newton",
+    "user_id": "",
+    "at": "eyJhbGciOiJIUzI1NiJ9.M2JlYjgyMTktMDZjZC00OGNiLTljYzEtNjE5NGQ4Mzg4MTRi.ghf_nyrPlDCOv7TJ6CJ9sIn7tM3C3TGTO0-dj7rqVJw",
+    "rt": "eyJhbGciOiJIUzI1NiJ9.NGI3OWMyMzUtNWQyNC00ODA4LTljYWQtMmE5MGIzMmY5MDQ0.c7hDlWIj6QhDmOa-bBEqjCLnEjSxgvkPklVUxI03a5I",
+    "username": "kamiya@verdis.ai",
+    "role": [
+      "V:DEFAULT", "Aaaaaaa_testing", "Allocation Variance", "Am testing", "Auto_demo_role",
+      "DAP Allocation VS SR", "DAP SR vs Allocation Analysis - May'24", "DAP SR vs Allocation Analysis - May'24 version1.2",
+      "DAP Stock transfer 1.2", "DAP-Charts Testing", "Demand vs Allocation (SR vs DAP)", "FMCG_demo_role", "FMCG_role",
+      "Inbound", "NEW TESTING", "Outbound", "Pankajsharma", "Production & Allocation", "Production Distribution",
+      "Region", "Region_Only", "Release_test", "SLAB2-UAT", "SOB_test", "Stock transfer", "TEST_123", "Test Vwid",
+      "Test_2023-03-10", "TestingRole", "TestingRegions", "UV:SF_OUTBOUND", "V:BIGSCREEN:NEWTON", "V:BIGSCREEN:WMS",
+      "V:FULLACCESS_UV_C_SOBTARGET", "V:Development", "V:FULLACCESS_UV_DAMAGES", "V:FULLACCESS_UV_DAP", "V:FULLACCESS_UV_DAP_INPUT",
+      "V:FULLACCESS_UV_DEALER_MASTER", "V:FULLACCESS_UV_DISPWC", "V:FULLACCESS_UV_MODEL_MASTER", "V:FULLACCESS_UV_PLANT_MASTER",
+      "V:FULLACCESS_UV_REGION_MASTER", "V:FULLACCESS_UV_SOBTARGET", "V:FULLACCESS_UV_TRANSPORTERMASTER", "V:FULLACCESS_UV_TRUCK_CONFIRMATION",
+      "V:FULLACCESS_UV_TRUCK_CONFIRMATION_NEW", "V:FULLACCESS_UV_TRUCK_MASTER", "V:FULLACCESS_UV_WORKINGDAYS", "V:FULLACCESS_UV_ZFIR06",
+      "new", "new1", "new123", "new_sob_test", "plan vs actual tfal04", "shivam_test", "story_dispatch_all", "zfir", "xyz",
+      "QA testing Kamiya", "test1", "test_1", "Truck Master Charts", "V:FULLACCESS_UV_TRANSPORTER_PERFORMANCE", "V:FULLACCESS_UV_RAW/POSTVALIDATION",
+      "V:FULLACCESS_UV_TEST27", "V:FULLACCESS_UV_TGJJ", "1 final testing", "12th_jan_testing", "CDL Dashboard Development Role",
+      "Local stories view role", "MovetoCat", "QA test", "V:FULLACCESS_UV_INVENTORY", "V:FULLACCESS_UV_OPENING_STOCK",
+      "V:FULLACCESS_UV_OPEN_ORDERS", "abcd_00123", "abcd_new", "auth_test_sm", "big test", "custom_role_test", "demo",
+      "demo_01_bfsi", "demo_01_retail", "demo_01_scm", "dispatch_123", "dummy12", "dummyinterface", "hello", "inter",
+      "latest_test", "localtocatissue", "localtocatissue_new", "lpc_dispatch", "mongoreadanalytics", "n_22", "nandan", "new12",
+      "newInterface", "newInterface_dsr", "new_22", "new_inter1", "newtestrole01"
+    ],
+    "op_department": "lpc"
+  },
+  "_trid": "abc"
+}

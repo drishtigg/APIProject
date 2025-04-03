@@ -1,0 +1,72 @@
+{
+  "reqtype": "getDashboard",
+  "data": {
+    "DSName": "newton",
+    "at": "eyJhbGciOiJIUzI1NiJ9.ZGEwMjdkMTItZGYzMy00MTM5LWIxMWMtNjUyMTM2MWZhZThj.JwRozKc_MAjDTw7wHX9yduVD5mSFb_mpDFPtuLeSgtA",
+    "rt": "eyJhbGciOiJIUzI1NiJ9.YmQ5NDFlYWYtYjcxYi00ZjM5LWI4YWQtYjhiODViMWEzYWE5.gjd1CuV689c_uH3J1i5S7FiwZBYWVz6NIAQiutnewso",
+    "story_id": "6629b6fee31eb13e3ef775ba",
+    "user_level_filters": {
+      "plant": [
+        "1F-PMB",
+        "1F",
+        "2F",
+        "3F",
+        "4F",
+        "ROE1",
+        "WHGW",
+        "WHDH"
+      ]
+    },
+    "username": "i-drishti@verdis.ai",
+    "role": [
+      "V:DEFAULT",
+      "Truck Master Charts",
+      "V:FULLACCESS_UV_PLANT_MASTER",
+      "V:FULLACCESS_UV_REGION_MASTER",
+      "V:FULLACCESS_UV_SOBTARGET",
+      "V:FULLACCESS_UV_TRANSPORTERMASTER",
+      "V:FULLACCESS_UV_TRUCK_CONFIRMATION",
+      "V:FULLACCESS_UV_TRUCK_CONFIRMATION_NEW",
+      "V:FULLACCESS_UV_TRUCK_MASTER",
+      "plan vs actual tfal04"
+    ],
+    "op_department": "lpc"
+  },
+  "_trid": "TRGW676942E58E5D1922EF0B468A",
+  "INFO": [
+    {
+      "TRGW676942E58E5D1922EF0B468A": "op_department in getdashboard :: lpc"
+    },
+    {
+      "TRGW676942E58E5D1922EF0B468A": "check vwid length:: 9"
+    },
+    {
+      "TRGW676942E58E5D1922EF0B468A": "query for dashboard: ",
+      "query": {
+        "DSName": "newton",
+        "user": {
+          "$in": [
+            "catalogue",
+            "i-drishti@verdis.ai"
+          ]
+        },
+        "story_id": "6629b6fee31eb13e3ef775ba",
+        "_vwid": {
+          "$in": [
+            "6629b6fee31eb13e3ef775bf",
+            "6629b6fee31eb13e3ef775c2",
+            "6629b6fee31eb13e3ef775c8",
+            "6629b6fee31eb13e3ef775cb",
+            "6629b6fee31eb13e3ef775ce",
+            "6629b6fee31eb13e3ef775d1",
+            "6629b6fee31eb13e3ef775d4",
+            "6629b6fee31eb13e3ef775d7",
+            "66220f12508d30dd166d1abe"
+          ]
+        },
+        "op_department": "lpc",
+        "active": true
+      }
+    }
+  ]
+}

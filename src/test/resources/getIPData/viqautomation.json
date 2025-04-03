@@ -1,0 +1,14 @@
+{
+    "reqtype": "viqautomation",
+    "data": {
+        "DSName": "smasher",
+        "uvname": "sales",
+        "frequency": "daily",
+        "username": "catalogue",
+        "DSGrpRefId": "6069eb29d86c3c35dabd0014",
+        "DSRefId": "6069eb29d86c3c35dabd0014",
+        "role": [
+            "VEYE"
+        ]
+    }
+}
